@@ -1,7 +1,7 @@
-cf-ruby-example
+Cloud Foundry Ruby Example application
 ===============
 
-Simple Sinatra 'Hello World' app easily test Cloud Foundry
+This is a simple Sinatra 'Hello World' web application.
 
 
 ## Instructions
