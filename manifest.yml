@@ -1,0 +1,4 @@
+---
+applications:
+- name: hello-devops-conf
+  memory: 32M
