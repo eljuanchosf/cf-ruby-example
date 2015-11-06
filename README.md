@@ -32,3 +32,7 @@ $ cf push -m 64m cf-ruby-example
 ```
 
 And that is it. Your (probably) first app deployed into a PaaS :)
+
+### Credits
+
+Thanks **@mgarciap** for the original example!
