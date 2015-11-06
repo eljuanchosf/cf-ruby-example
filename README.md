@@ -8,8 +8,8 @@ This is a simple Sinatra 'Hello World' web application.
 
 ### Download this app
 ```
-$ git clone https://github.com/eljuanchosf/cf-ruby-example.git
-$ cd cf-ruby-example
+$ git clone https://github.com/eljuanchosf/cf-sinatra-example.git
+$ cd cf-sinatra-example
 ```
 
 ### Deploy to Cloud Foundry
@@ -22,13 +22,13 @@ $ cf login -a <paas api url. Warning: default is https, specify http:// if neces
 
 Push
 ```
-$ cf push cf-ruby-example
+$ cf push cf-sinatra-example
 ```
 Note: it is possible that this application name is already in use. Change it if you get that error.
 
 If you want to change the memory to allocate to this app:
 ```
-$ cf push -m 64m cf-ruby-example
+$ cf push -m 64m cf-sinatra-example
 ```
 
 And that is it. Your (probably) first app deployed into a PaaS :)
