@@ -8,7 +8,7 @@ This is a simple Sinatra 'Hello World' web application.
 
 ### Download this app
 ```
-$ git clone https://github.com/mgarciap/cf-ruby-example.git
+$ git clone https://github.com/eljuanchosf/cf-ruby-example.git
 $ cd cf-ruby-example
 ```
 
@@ -32,4 +32,3 @@ $ cf push -m 64m cf-ruby-example
 ```
 
 And that is it. Your (probably) first app deployed into a PaaS :)
-
