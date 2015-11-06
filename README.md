@@ -22,13 +22,16 @@ $ cf login -a <paas api url. Warning: default is https, specify http:// if neces
 
 Push
 ```
-$ cf push cf-sinatra-example
+$ cf push
 ```
 Note: it is possible that this application name is already in use. Change it if you get that error.
 
-If you want to change the memory to allocate to this app:
+If you want to change the memory to allocate to this app, open the `manifest.yml` file and modify the `memory` setting.
 ```
-$ cf push -m 64m cf-sinatra-example
+---
+applications:
+- name: cf-sinatra-example
+  memory: 32M
 ```
 
 And that is it. Your (probably) first app deployed into a PaaS :)

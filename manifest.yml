@@ -1,4 +1,4 @@
 ---
 applications:
-- name: hello-devops-conf
+- name: cf-sinatra-example
   memory: 32M
