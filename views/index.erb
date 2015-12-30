@@ -18,8 +18,15 @@
 			<main>
 				<div id="content">
 					<div class="innertube">
-						<h2>IP: <%= @host %> - Port: <%= @port %> - DEA Index: <%= @index %></h2>
-						<img src="https://pbs.twimg.com/media/CTEXWqmWUAAV8jL.png"></img>
+                      <h2>IP: <%= @host %> - Port: <%= @port %> - DEA Index: <%= @index %></h2>
+                      <img src="https://pbs.twimg.com/media/CTEXWqmWUAAV8jL.png"></img>
+                      <h3>Connected to the MySQL <%= @db_name %> database</h3>
+                      <h4>Tables in the schema</h4>
+                      <ul>
+                        <% @query_result.each do |row| %>
+                            <li><%= row['table_name'] %></li>
+                        <% end %>
+                      </ul>
 					</div>
 				</div>
 			</main>
